@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTech - Soluciones Digitales Inteligentes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NovaTech</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#about" class="nav-link">Nosotros</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#pricing" class="nav-link">Precios</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typewriter" id="typewriter">Innovación que impulsa tu futuro digital</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Desarrollamos soluciones web, móviles y de datos para que tu negocio crezca de forma inteligente.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary"><a class="btn-enlace" href="#pricing">Comienza tu proyecto</a></button>
+                    <button class="btn btn-secondary"><a class="btn-enlace" href="#services">Ver servicios</a></button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-code"></i>
+                    <span>Web Development</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile Apps</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Data Analytics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lo que hacemos</h2>
+                <p>Soluciones digitales que transforman tu negocio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desarrollo Web Full Stack</h3>
+                    <p>Sitios rápidos, seguros y optimizados para todos los dispositivos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicaciones Móviles</h3>
+                    <p>Apps nativas e híbridas con UX de primer nivel.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analítica y Data Science</h3>
+                    <p>Convierte tus datos en decisiones inteligentes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automatización de Procesos</h3>
+                    <p>Ahorra tiempo y reduce errores con flujos automáticos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>De entusiastas a expertos</h2>
+                    <p>En NovaTech combinamos creatividad, ingeniería y estrategia para resolver retos digitales. Nuestro equipo está formado por desarrolladores, diseñadores y analistas que trabajan codo a codo para ofrecer soluciones únicas.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>150+</h3>
+                            <p>Proyectos completados</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Clientes satisfechos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5</h3>
+                            <p>Años de experiencia</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Conoce nuestra historia</button>
+                </div>
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=400&width=500" alt="Equipo NovaTech">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>Testimonios reales de empresas que confiaron en nosotros</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <p>"El equipo de NovaTech transformó nuestra web y triplicó nuestras ventas online."</p>
+                        <div class="testimonial-author">
+                            <img src="/placeholder.svg?height=60&width=60" alt="Ana R.">
+                            <div>
+                                <h4>Ana R.</h4>
+                                <span>CEO de MarketFlow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"La solución de automatización nos ahorra más de 20 horas semanales."</p>
+                        <div class="testimonial-author">
+                            <img src="/placeholder.svg?height=60&width=60" alt="Luis M.">
+                            <div>
+                                <h4>Luis M.</h4>
+                                <span>Director de LogiData</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Increíble atención al detalle y resultados que superaron nuestras expectativas."</p>
+                        <div class="testimonial-author">
+                            <img src="/placeholder.svg?height=60&width=60" alt="Carmen S.">
+                            <div>
+                                <h4>Carmen S.</h4>
+                                <span>Gerente de TechStart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyectos que nos inspiran</h2>
+                <p>Algunos de nuestros trabajos más destacados</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="SmartShop">
+                        <div class="project-overlay">
+                            <button class="btn btn-primary">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce SmartShop</h3>
+                        <p>Plataforma de ventas con IA para recomendaciones.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="FitLife">
+                        <div class="project-overlay">
+                            <button class="btn btn-primary">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App FitLife</h3>
+                        <p>Aplicación de rutinas personalizadas y seguimiento fitness.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="DataFlow">
+                        <div class="project-overlay">
+                            <button class="btn btn-primary">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard DataFlow</h3>
+                        <p>Sistema de análisis de datos en tiempo real.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="BookEasy">
+                        <div class="project-overlay">
+                            <button class="btn btn-primary">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>BookEasy</h3>
+                        <p>Sistema de reservas para restaurantes y eventos.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="EduPlatform">
+                        <div class="project-overlay">
+                            <button class="btn btn-primary">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>EduPlatform</h3>
+                        <p>Plataforma de aprendizaje online interactiva.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="StockPro">
+                        <div class="project-overlay">
+                            <button class="btn btn-primary">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>StockPro</h3>
+                        <p>Sistema de gestión de inventarios automatizado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Elige el plan perfecto para ti</h2>
+                <p>Soluciones escalables para cada etapa de tu negocio</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p>Ideal para pequeños negocios</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Sitio web responsive</li>
+                        <li><i class="fas fa-check"></i> Hosting incluido</li>
+                        <li><i class="fas fa-check"></i> SSL gratuito</li>
+                        <li><i class="fas fa-check"></i> Soporte básico</li>
+                        <li><i class="fas fa-check"></i> 5 páginas</li>
+                    </ul>
+                    <button class="btn btn-outline">Contratar</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Más popular</div>
+                    <div class="pricing-header">
+                        <h3>Business</h3>
+                        <p>Escala y crece</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Todo lo de Starter</li>
+                        <li><i class="fas fa-check"></i> E-commerce básico</li>
+                        <li><i class="fas fa-check"></i> Analytics avanzado</li>
+                        <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                        <li><i class="fas fa-check"></i> Páginas ilimitadas</li>
+                        <li><i class="fas fa-check"></i> SEO optimizado</li>
+                    </ul>
+                    <button class="btn btn-primary">Contratar</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p>Solución a medida</p>
+                        <div class="price">
+                            <span class="amount">Personalizado</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Todo lo de Business</li>
+                        <li><i class="fas fa-check"></i> Desarrollo personalizado</li>
+                        <li><i class="fas fa-check"></i> Integración APIs</li>
+                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        <li><i class="fas fa-check"></i> Consultoría incluida</li>
+                        <li><i class="fas fa-check"></i> SLA garantizado</li>
+                    </ul>
+                    <button class="btn btn-outline">Contactar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Hablemos de tu proyecto</h2>
+                    <p>¿Tienes una idea? Nos encantaría escucharla y ayudarte a hacerla realidad.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hola@novatech.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+34 900 123 456</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Oficina</h4>
+                                <p>Madrid, España</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Teléfono (opcional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Cuéntanos sobre tu proyecto" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NovaTech</h3>
+                    <p>Innovación que impulsa tu futuro digital</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Desarrollo Web</a></li>
+                        <li><a href="#">Apps Móviles</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Automatización</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>hola@novatech.com</li>
+                        <li>+34 900 123 456</li>
+                        <li>Madrid, España</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NovaTech. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
