@@ -240,7 +240,7 @@ body {
   color: white;
 }
 
-.btn-enlace {
+.btn-enlace:hover {
   color: #6366f1;
 }
 
